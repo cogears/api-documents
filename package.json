@@ -1,0 +1,44 @@
+{
+  "name": "@cogears/api-documents",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/api-doc.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist/**",
+    "types/**"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.35"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.0.29"
+  },
+  "peerDependencies": {
+    "@cogears/app-view": "1.2.1",
+    "@cogears/http-client": "^1.1.7",
+    "vue-router": "^4.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogears/api-documents.git"
+  },
+  "author": "stone",
+  "bugs": {
+    "url": "https://github.com/cogears/api-documents/issues"
+  },
+  "homepage": "https://github.com/cogears/api-documents#readme",
+  "engines": {
+    "node": ">= 20.0.0"
+  }
+}
