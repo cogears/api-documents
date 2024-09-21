@@ -9,7 +9,7 @@ const props = defineProps<{
 
 const text = computed({
     get() {
-        return JSON.stringify(props.api.body)
+        return JSON.stringify(props.api.body, undefined, 4)
     },
     set(value) {
         try {

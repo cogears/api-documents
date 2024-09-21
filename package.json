@@ -1,6 +1,6 @@
 {
   "name": "@cogears/api-documents",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "api documents",
   "type": "module",
   "main": "dist/api-doc.js",
